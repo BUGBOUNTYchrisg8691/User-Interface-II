@@ -193,7 +193,6 @@ nav a {
 .innerElements {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: 20vh;
 }
@@ -210,12 +209,12 @@ nav a {
     color: #fff;
 }
 
-.myProjects{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-evenly;
+.myProjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.myProjects h4{
-    text-align:center;
+.myProjects h4 {
+    text-align: center;
 }
