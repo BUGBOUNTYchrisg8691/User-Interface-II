@@ -194,12 +194,18 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 20vh;
+    height: 30vh;
 }
 
 .innerElements h2 {
     font-size: 6rem;
     flex-grow: 1;
+}
+
+.innerElements p {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 5vh;
 }
 
 .innerElements h4 {
