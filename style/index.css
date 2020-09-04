@@ -101,7 +101,7 @@ video {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 2px solid gray;
+    /*border: 2px solid gray;*/
 }
 
 
@@ -185,7 +185,7 @@ nav a {
     height: 50vh;
     justify-content: center;
     align-items: center;
-    background-image: url("https://images.pexels.com/photos/1089440/pexels-photo-1089440.jpeg?cs=srgb&dl=pexels-markus-spiske-1089440.jpg&fm=jpg");
+    background-image: url("../assets/pexels-markus-spiske.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -210,3 +210,12 @@ nav a {
     color: #fff;
 }
 
+.myProjects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.myProjects h4{
+    text-align:center;
+}
