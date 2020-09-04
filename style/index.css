@@ -174,7 +174,7 @@ nav a {
 .projectsTitle {
     display: flex;
     justify-content: center;
-    color:#fff;
+    color: #fff;
     text-shadow: 0 0 5px #000, 0 0 10px #000;
 }
 
@@ -215,8 +215,8 @@ nav a {
     background-color: #ffff00;
 }
 
-.innerElements a:hover{
-    color:#ffff00;
+.innerElements a:hover {
+    color: #ffff00;
     opacity: 755;
 }
 
@@ -230,12 +230,25 @@ nav a {
     text-align: center;
 }
 
+
 /* Styles for footer */
+
+footer {
+    height: 25vh;
+}
 
 footer div {
     display: flex;
-    width: 25%;
-    justify-content: space-evenly;
+    width: 100%;
+    height: 15vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 footer div a {
@@ -246,6 +259,7 @@ footer div a {
 
 .ref {
     display: flex;
-    justify-content: flex-end;
-    width: 80%;
+    align-items: flex-end;
+    width: 95%;
+    height: 10vh;
 }
