@@ -129,6 +129,8 @@ a {
 a:hover {
     opacity: 50%;
     color: black;
+    transform: scale(1.2);
+    transition-duration: 500ms;
 }
 
 section {
