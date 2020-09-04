@@ -265,6 +265,7 @@ footer div a {
 
 .ref {
     display: flex;
+    flex-direction: row;
     align-items: flex-end;
     width: 95%;
     height: 10vh;
