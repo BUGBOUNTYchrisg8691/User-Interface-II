@@ -174,12 +174,12 @@ nav a {
 .projectsTitle {
     display: flex;
     justify-content: center;
+    color:#fff;
+    text-shadow: 0 0 5px #000, 0 0 10px #000;
 }
 
 .border {
     display: flex;
-    /*border:1px solid peru;
-    background-color:peru;*/
     border-radius: 5%;
     width: 80%;
     height: 50vh;
@@ -200,13 +200,24 @@ nav a {
 .innerElements h2 {
     font-size: 6rem;
     flex-grow: 1;
-    color: #fff;
 }
 
 .innerElements h4 {
     font-size: 2.5rem;
     flex-grow: 1;
-    color: #fff;
+}
+
+.innerElements a {
+    border: 3px solid #ffff00;
+    border-radius: 10%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffff00;
+}
+
+.innerElements a:hover{
+    color:#ffff00;
+    opacity: 755;
 }
 
 .myProjects {
@@ -217,4 +228,24 @@ nav a {
 
 .myProjects h4 {
     text-align: center;
+}
+
+/* Styles for footer */
+
+footer div {
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+}
+
+footer div a {
+    color: #000;
+    /*padding: 10px;
+    margin: 10px;*/
+}
+
+.ref {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
 }
