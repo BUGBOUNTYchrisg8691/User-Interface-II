@@ -128,3 +128,126 @@ a {
 a:hover {
     opacity: 50%;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* header styles */
+
+div.header {
+    margin: 25px;
+    padding: 10px;
+    width: 100%;
+}
+
+.headerTag {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 15vh;
+}
+
+nav a {
+    color: #000;
+    margin: 10px 0;
+    padding: 4px 15px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+
+/* index.html styles */
+
+
+/* bio section styles */
+
+div.bio {
+    margin: 0 auto 10px auto;
+}
+
+section.bio {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.bio section.bio div.photo img {
+    width: 100%;
+    height: 100%;
+}
+
+div.info {
+    margin: 10px 2%;
+    padding: 20px 2% 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.info h2 {
+    font-size: 2.2rem;
+}
+
+div.info a {
+    color: #000;
+    margin: 10px 0;
+    padding: 4px 15px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+
+
+/* project gallery styles */
+
+div.projectGallery {
+    margin: 10px auto;
+}
+
+section.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectGallery .project {
+    margin: 2px 4%;
+}
+
+
+/* footer styles */
+
+div.footer {
+    width: 25%;
+    height: 10vh;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+div.footer footer {
+    display: flex;
+    flex-direction: column;
+}
+
+div.footer footer div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.footer footer h3 {
+    font-size: 3rem;
+}
+
+div.footer footer a {
+    color: #000;
+}
