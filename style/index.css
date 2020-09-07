@@ -1,274 +1,208 @@
-/* Add CSS styling here */
-
-
-/* CSS reset (Meyer's) */
-
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    /*border:0;*/
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-* {
-    box-sizing: border-box;
-    max-width: 100%;
-    /*border: 2px solid gray;*/
-}
-
-
-/* General Styles */
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-    font-size: 1.8rem;
-    line-height: 1.5rem;
-    font-family: font-family: 'Rufina', serif;
-}
-
-h1 {
-    font-size: 4rem;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    opacity: 50%;
-    color: black;
-    transform: scale(1.2);
-    transition-duration: 500ms;
-}
-
-section {
-    padding: 4% 0;
-}
-
-
-/* Styles for header */
-
-header {
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Rufina', serif;
-}
-
-.name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    margin: 5px;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 30%;
-    height: 10vh;
-}
-
-nav a {
-    border: 1px solid peru;
-    background-color: peru;
-    border-radius: 10%;
-    padding: 5px;
-    margin: 5px;
-}
-
-
-/* Styles for Body */
-
-.projectsTitle {
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    text-shadow: 0 0 5px #000, 0 0 10px #000;
-}
-
-.border {
-    display: flex;
-    border-radius: 5%;
-    width: 80%;
-    height: 50vh;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../assets/pexels-markus-spiske.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-
-.innerElements {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 30vh;
-}
-
-.innerElements h2 {
-    font-size: 6rem;
-    flex-grow: 1;
-}
-
-.innerElements p {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 5vh;
-}
-
-.innerElements h4 {
-    font-size: 2.5rem;
-    flex-grow: 1;
-}
-
-.innerElements a {
-    border: 3px solid #ffff00;
-    border-radius: 10%;
-    margin: 10px;
-    padding: 10px;
-    background-color: #ffff00;
-}
-
-.innerElements a:hover {
-    color: #ffff00;
-    opacity: 755;
-}
-
-.myProjects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.myProjects h4 {
-    text-align: center;
-}
-
-
-/* Styles for footer */
-
-footer {
-    height: 25vh;
-}
-
-footer div {
-    display: flex;
-    width: 100%;
-    height: 15vh;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-span {
-    font-weight: bolder;
-    text-decoration: underline;
-}
-
-footer div a {
-    color: #000;
-    /*padding: 10px;
-    margin: 10px;*/
-}
-
-.ref {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    width: 95%;
-    height: 10vh;
-}
+            /* Add CSS styling here */
+            /* General Styles */
+            
+            body {
+                font-size: 1.8rem;
+                line-height: 1.5rem;
+                font-family: font-family: 'Rufina', serif;
+            }
+            
+            h1 {
+                font-size: 4rem;
+            }
+            
+            a {
+                text-decoration: none;
+                color: white;
+            }
+            
+            a:hover {
+                opacity: 50%;
+                color: black;
+                transform: scale(1.2);
+                transition-duration: 500ms;
+            }
+            
+            section {
+                padding: 4% 0;
+            }
+            /* Styles for header */
+            
+            header {
+                display: flex;
+                justify-content: space-between;
+                font-family: 'Rufina', serif;
+                width: 90%;
+            }
+            
+            .name {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 5px;
+                margin: 5px;
+            }
+            
+            nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                width: 30%;
+                height: 10vh;
+            }
+            
+            nav a {
+                border: 1px solid peru;
+                background-color: peru;
+                border-radius: 10%;
+                padding: 5px;
+                margin: 5px;
+            }
+            /* Styles for Body */
+            
+            .projectsTitle {
+                display: flex;
+                justify-content: center;
+                color: #fff;
+                text-shadow: 0 0 5px #000, 0 0 10px #000;
+            }
+            
+            .border {
+                display: flex;
+                border-radius: 5%;
+                width: 80%;
+                height: 50vh;
+                justify-content: center;
+                align-items: center;
+                background-image: url("../assets/pexels-markus-spiske.jpg");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+            }
+            
+            .innerElements {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 30vh;
+            }
+            
+            .innerElements h2 {
+                font-size: 6rem;
+                flex-grow: 1;
+            }
+            
+            .innerElements p {
+                width: 90%;
+                padding: 10px;
+                margin-bottom: 5vh;
+            }
+            
+            .innerElements h4 {
+                font-size: 2.5rem;
+                flex-grow: 1;
+            }
+            
+            .innerElements a {
+                border: 3px solid #ffff00;
+                border-radius: 10%;
+                margin: 10px;
+                padding: 10px;
+                background-color: #ffff00;
+            }
+            
+            .innerElements a:hover {
+                color: #ffff00;
+                opacity: 755;
+            }
+            
+            .myProjects {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            }
+            
+            .myProjects div {
+                margin: 5px 2%;
+            }
+            
+            .myProjects h4 {
+                text-align: center;
+            }
+            /* Styles for footer */
+            
+            footer {
+                height: 25vh;
+            }
+            
+            footer div {
+                display: flex;
+                width: 100%;
+                height: 15vh;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            span {
+                font-weight: bolder;
+                text-decoration: underline;
+            }
+            
+            footer div a {
+                color: #000;
+                /*padding: 10px;
+                margin: 10px;*/
+            }
+            
+            .ref {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+                width: 95%;
+                height: 10vh;
+            }
+            /* At 1100px, move content to flex-start */
+            
+            @media (max-width: 1100px) {
+                .myProjects {
+                    justify-content: flex-start;
+                }
+            }
+            /* At 800px, do the following: */
+            
+            @media (max-width: 800px) {
+                /* header styles */
+                header {
+                    width: 80%;
+                }
+                nav {
+                    width: 15%;
+                }
+                /* body styles */
+                .border {
+                    height: 70vh;
+                }
+                .myProjects {
+                    justify-content: center;
+                }
+                .myProjects div {
+                    margin: 10px 0 10px 5%;
+                }
+            }
+            /* At 500px, do the following: */
+            
+            @media (max-width: 500px) {
+                /* header styles */
+                header {
+                    margin-left: auto;
+                    margin-right: auto;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                nav {
+                    width: 60%;
+                    justify-content: center;
+                }
+            }
