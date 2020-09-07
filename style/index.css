@@ -92,7 +92,7 @@ audio,
 video {
     margin: 0;
     padding: 0;
-    /*border:0;*/
+    border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
@@ -101,7 +101,7 @@ video {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid gray;
+    /*border: 1px solid gray;*/
 }
 
 
@@ -114,7 +114,7 @@ html {
 body {
     font-size: 1.8rem;
     line-height: 1.5rem;
-    font-family: font-family: 'Rufina', serif;
+    font-family: 'Rufina', serif;
 }
 
 h1 {
@@ -218,6 +218,14 @@ section.gallery {
 
 .projectGallery .project {
     margin: 2px 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.projectGallery hr {
+    border: 1px dotted #000;
+    width: 90%;
 }
 
 
